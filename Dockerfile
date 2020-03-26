@@ -7,7 +7,7 @@ RUN GOOS=linux GOARCH=amd64 CGO_ENABLED=0 \
 FROM alpine
 
 LABEL com.evgmoskalenko.project.name="alpine-kube-tools" \
-      com.evgmoskalenko.description="An Alpine based docker image contains a good combination of commenly used tools\
+      com.evgmoskalenko.description="An Alpine based docker image contains a good combination of commonly used tools\
       in Kubernetes cluster" \
       com.evgmoskalenko.project.source="https://github.com/evgmoskalenko/alpine-kube-tools" \
       com.evgmoskalenko.project.maintainer="eugene-msa@yandex.ru"
